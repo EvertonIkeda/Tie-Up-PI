@@ -1,0 +1,28 @@
+Descrição do Sistema Proposto:
+
+O sistema tem como objetivo a viabilização da interação de pessoas e empresas com interesses correspondentes, possibilitando, dessa forma, a criação de comunidades com os mesmos propósitos, além da disponibilidade da solicitação de serviços e recursos referentes a um assunto específico. Desse modo, com viés social e midiático, tal programa sucede-se da participação e promove a interação entre os usuários, os quais, por meio de cadastros, criam contas e publicitam suas características, bem como seus feitos e seus bens intelectuais. Nesse sentido, o fomento desse sistema dá-se na participação dos usuários cujas atividades relativas à uma rede social possibilita a troca de valores, sejam eles mercantilizados ou não, por meio de dinâmicas de relações, assim como a disponibilidade de softwares de comunicação, bem como chats, e meios de pesquisa de necessidades relevantes ao utilizador, com um método abrangente, permitindo a busca por nome, hobby, conquista, trabalho ou localização, disponibilizando o mapeamento exato ou por zona, de acordo com as configurações de privacidade preestabelecidas, demonstrando os resultados da busca em estrutura de lista de acordo com os filtros, os quais são efetivados por métodos de apuração em zoneamentos da área requerida. Para isso, o sistema contará com o registro de usuários provido de login, senha, e-mail e número de contato para pessoas físicas e a adição de CNPJ para pessoas jurídicas. A criação de seus perfis, os quais são passivos de edição, bem como a exclusão deste, dispondo a possibilidade de alteração da foto da conta, do nome, da biografia, de passatempos (hobbies), de seus dados como email e telefone ou celular, disponibiliza a interação entre os utilizadores do sistema, tal como curtidas, avaliações e denúncias de usuários. Sendo assim, os meios de interatividade permanecem registrados em um relatório de dados da conta, o qual pode ser examinado pelo usuário, de modo que a alternância do funcionamento para indivíduos com deficiências, dada pela legenda de acessibilidade, permite a análise e uso sem interferências por limitações físicas.                        
+
+
+Lista de funcionalidades:
+
+Cadastrar usuário
+Validar login do usuário
+Entrar na conta do usuário 
+Sair da conta do usuário
+Editar email
+Editar número de contato
+Excluir conta
+Cadastrar CNPJ para pessoa jurídica
+Editar foto de perfil
+Editar biografia do perfil
+Adicionar hiperligação na biografia do perfil
+Alterar senha da conta do usuário
+Alterar nome do usuário
+Enviar de mensagens de texto
+Avaliar usuários
+Curtir usuários
+Denúnciar usuários
+Pesquisar por interesses, nome ou localidade
+Localizar usuários com exatidão ou por zoneamento
+Geração de relatório e análise dos dados da conta
+Opção de gerar legendas de acessibilidade
