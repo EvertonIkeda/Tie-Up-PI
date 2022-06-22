@@ -1,0 +1,7 @@
+{
+  "name": "TieUpApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

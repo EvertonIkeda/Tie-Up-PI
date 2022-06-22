@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="5">
+          <ion-img src="../../assets/images/logonew.png"></ion-img>
+        </ion-col>
+      </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="yellow"></div>
+
+  <ion-grid>
+    <ion-row class="ion-justify-content-around">
+      <ion-col size="4">
+        <a routerLink="/tabs/chat" class="gray">Mensagens</a>
+      </ion-col>
+      <ion-col size="4">
+        <a class="yellow">Notificações</a>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="gray"></div>
+
+  <ion-grid>
+    <ion-row *ngFor="let item of lista_notificacao" class="ion-align-items-center">
+      <ion-col size="3">
+        <img src={{item.imagem}} alt="">
+        <p class="name">{{item.nome}}</p>
+      </ion-col>
+      <ion-col size="6">
+        <p class="notificacao">
+          {{item.notificacao}}
+        </p>
+      </ion-col>
+      <ion-col size="3">
+        <ion-icon name={{item.icone}}></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

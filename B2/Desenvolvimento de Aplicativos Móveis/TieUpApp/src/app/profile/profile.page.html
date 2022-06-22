@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row class="ion-justify-content-end">
+        <ion-col size="3">
+          <ion-tab-button>
+            <ion-icon routerLink="/config" name="cog-outline"></ion-icon>
+          </ion-tab-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col>
+        <img src="../../assets/images/man.png" alt="">
+      </ion-col>
+      <ion-col>
+        <h2>Seu nome de usuário</h2>
+        <ion-button color="secondary" routerLink="/profile-config" size="small">Editar perfil</ion-button>
+      </ion-col>
+      <ion-col>
+        <p>Score</p>
+        <p>4.7</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div class="gray"></div>
+  <p>Suas atividades</p>
+  <div class="gray"></div>
+
+</ion-content>
