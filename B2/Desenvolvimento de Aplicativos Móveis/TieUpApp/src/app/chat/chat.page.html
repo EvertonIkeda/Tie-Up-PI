@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="5">
+          <ion-img src="../../assets/images/logonew.png"></ion-img>
+        </ion-col>
+      </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="yellow"></div>
+  
+  <ion-grid>
+    <ion-row class="ion-justify-content-around">
+      <ion-col size="4">
+        <a class="yellow">Mensagens</a>
+      </ion-col>
+      <ion-col size="4">
+        <a routerLink="/tabs/notification" class="gray">Notificações</a>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="gray"></div>
+  <ion-grid>
+    <ion-row class="ion-align-items-baseline">
+      <ion-col size="10.5">
+        <ion-input placeholder="nome, usuário..."></ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="search-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngFor="let item of lista_mensagens" class="ion-align-items-center">
+      <ion-col size="3">
+        <img src={{item.imagem}} alt="">
+        <p class="name">{{item.nome}}</p>
+      </ion-col>
+      <ion-col size="6">
+        <p class="message">{{item.quantidade}} mensagens</p>
+      </ion-col>
+      <ion-col size="3">
+        <p class="time">Há {{item.tempo}}</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+</ion-content>

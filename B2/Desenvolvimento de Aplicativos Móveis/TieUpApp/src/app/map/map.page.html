@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="5">
+          <ion-img src="../../assets/images/logonew.png"></ion-img>
+        </ion-col>
+      </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div></div>
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col size="10">
+        <ion-input type="search" placeholder="Interesses, usuários, serviços, cidades"></ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="search-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <p>Perto de você:</p>
+    </ion-row>
+    <ion-row>
+      <ion-col *ngFor="let item of lista_perto" size="2.4">
+        <img src={{item.imagem}} alt="">
+        <p class="name">{{item.nome}}</p>
+        <p>{{item.ocupacao}}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117243.2830989798!2d-51.23580311400483!3d-23.321106345058038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435a57af586d%3A0x23ac11a5c614f971!2sLondrina%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1655497454923!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </ion-row>
+  </ion-grid>
+</ion-content>

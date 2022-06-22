@@ -1,0 +1,38 @@
+div.yellow {
+  width:100%;
+  border-top: solid 1px #f7c20f;
+}
+
+div.gray {
+  width:100%;
+  border-top: solid 1px #4b4b4b;
+}
+
+a.yellow {
+  text-decoration: none;
+  color: #f7c20f;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+a.gray {
+  text-decoration: none;
+  color: #dfdfdf;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+p.name {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 4px;
+}
+
+p.notificacao {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+ion-icon {
+  font-size: 30px;
+}

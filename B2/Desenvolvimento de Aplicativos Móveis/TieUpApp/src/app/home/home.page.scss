@@ -1,0 +1,60 @@
+div.yellow {
+  width:100%;
+  border-top: solid 1px #f7c20f
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+a {  
+  font-size: 0.6rem;
+}
+
+.post {
+  height: 150px;
+}
+
+.post p {
+  color: black;
+}
+
+.azul {
+  background-color: rgb(119, 255, 255);
+}
+
+.verde {
+  background-color: rgb(158, 255, 158);
+}
+
+.roxo {
+  background-color: rgb(255, 123, 255);
+}
+
+.vermelho {
+  background-color: rgb(255, 130, 130);
+}
+
+h2, ion-col p, span {
+  font-size: 0.5rem;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.localization {
+  font-size: 0.4rem;
+}
+
+span {
+  margin: 0 4px;
+}
+
+p {
+  margin-top: -6px;
+}
+
+.paper-plane {
+  margin-top: 20px;
+}
